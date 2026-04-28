@@ -20,7 +20,6 @@ import {
   sortableKeyboardCoordinates,
 } from "@dnd-kit/sortable";
 import {
-  ArrowLeft,
   Columns3,
   KanbanSquare,
   LogOut,
@@ -512,10 +511,7 @@ export function TaskFlowApp() {
         <section className="board-area">
           <div className="board-toolbar">
             <div className="board-toolbar-copy">
-              <button className="back-button" type="button">
-                <ArrowLeft size={16} />
-                <span>{userBoards.length} board</span>
-              </button>
+              <span className="board-count">{userBoards.length} board</span>
               <p>
                 {activeBoard.columnOrder.length} sutun · {totalCards} kart · siralama
                 kaydedildi

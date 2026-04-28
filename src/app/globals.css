@@ -302,8 +302,7 @@ p {
 .product-lockup,
 .user-chip,
 .search-box,
-.sidebar-heading,
-.back-button {
+.sidebar-heading {
   display: flex;
   align-items: center;
 }
@@ -447,8 +446,7 @@ p {
 .quick-create button:hover,
 .new-column button:hover,
 .new-card button:hover,
-.icon-button:hover,
-.back-button:hover {
+.icon-button:hover {
   border-color: var(--accent);
   color: var(--accent);
   background: #f3faf7;
@@ -484,14 +482,18 @@ p {
   font-weight: 750;
 }
 
-.back-button {
-  gap: 8px;
+.board-count {
+  display: inline-flex;
+  min-height: 34px;
+  align-items: center;
+  white-space: nowrap;
   border: 1px solid var(--border);
   border-radius: 8px;
-  background: var(--panel);
-  padding: 9px 11px;
-  color: var(--muted);
-  font-weight: 750;
+  background: var(--accent-soft);
+  padding: 0 11px;
+  color: var(--accent-strong);
+  font-size: 0.86rem;
+  font-weight: 900;
 }
 
 .new-column {
