@@ -172,4 +172,4 @@ Case dokümanında özellikle sürükle-bırak deneyimi, sıralama mantığı ve
 
 Veri saklama için localStorage kullanılarak sayfa yenilemelerinde state korunmuştur.
 
-Mevcut veri modeli normalize tutulduğu için aynı yapı kolayca backend (API + veritabanı) ile genişletilebilir. bunu koddan mı gördün
+Mevcut veri modeli normalize tutulduğu için aynı yapı kolayca backend (API + veritabanı) ile genişletilebilir.
